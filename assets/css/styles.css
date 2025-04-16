@@ -1,3 +1,4 @@
+/* Body */
 body {
     font-family: sans-serif;
     margin: 0;
@@ -5,13 +6,59 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
-    background: #2c6e55;
+    background: url('../img/header-diknas.jpg') no-repeat center;
+    background-color: #2c6e55;
+    margin: auto;
+    background-size: cover;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
 }
 
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    weight: 100px;
+    height: auto;
+    padding: 10px 30px;
+    background: #2c6e55;
+    color: #ffffff;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.header-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.header-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.header-nav a:hover {
+    background: #224820;
+}
+
+/* Container */
 .container {
     width: 960px;
     margin: 20px auto;
@@ -42,6 +89,22 @@ header {
 }
 
 @media (max-width: 600px) {
+
+    .header-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-nav a {
+        width: 100%;
+        padding: 10px 0;
+    }
+
     .school-card {
         padding: 10px;
     }
@@ -50,4 +113,22 @@ header {
         text-align: center;
         display: block;
     }
+}
+
+/* Logo */
+#logo {
+    margin: 20px;
+    float: left;
+    width: 210px;
+    height: 210px;
+    background: url('../img/logo-diknas.png') no-repeat center;
+    background-size: contain;
+    margin-top: 13px;
+}
+
+#logo_f {
+    float: left;
+    background: url('../img/logo-diknas.png') no-repeat center;
+    background-size: contain;
+    margin-top: 13px;
 }
