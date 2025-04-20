@@ -8,9 +8,10 @@ body {
 
 /* Header */
 header {
-    background: url('../img/header-diknas.jpg') no-repeat center;
+    background: url('../img/header-kriska.jpg') no-repeat center;
     background-color: #2c6e55;
     margin: auto;
+    height: 250px;
     background-size: cover;
     color: #ffffff;
     padding: 10px 0;
@@ -21,20 +22,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    weight: 100px;
-    height: auto;
     padding: 10px 30px;
+    height: 70px;
     background: #2c6e55;
     color: #ffffff;
 }
 
 .header-title {
     font-size: 24px;
+    color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     text-align: right;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     flex-grow: 1;
 }
 
@@ -121,14 +122,14 @@ header {
     float: left;
     width: 210px;
     height: 210px;
-    background: url('../img/logo-diknas.png') no-repeat center;
+    background: url('../img/logo-krika.png') no-repeat center;
     background-size: contain;
     margin-top: 13px;
 }
 
 #logo_f {
     float: left;
-    background: url('../img/logo-diknas.png') no-repeat center;
+    background: url('../img/logo-krika.png') no-repeat center;
     background-size: contain;
     margin-top: 13px;
 }
