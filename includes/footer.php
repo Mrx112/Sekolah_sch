@@ -26,7 +26,48 @@
             <p class="copyright">&copy; 2025 Website SMK KRISTEN SURAKARTA. All rights reserved.</p>
         </div>
     </footer>
-    <footer>
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>SMK KRISTEN SURAKARTA</h3>
+            <p class="footer-links">
+                <a href="#" src="../pages/index.php">Home</a>
+                .
+                <a href="#" src="../pages/profile.php">About</a>
+                .
+                <a href="#" src="../pages/kontak.php">Contact</a>
+            </p>
+            <p class="footer-company-name">&copy; Created By Adi Susilo &copy; 2025</p>
+        </div>
+
+        <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Jl. Pendidikan No. 123</span> Surakarta, Jawa Tengah</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+62 XXX XXXX XXXX</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:info@sekolah.com">info@sekolah.com</a></p>
+        </div>
+    </div>
+
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>Tentang Website</span>
+            Website ini menyediakan informasi lengkap tentang sekolah kami, termasuk layanan, berita, dan kontak.
+        </p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>
 <?php
