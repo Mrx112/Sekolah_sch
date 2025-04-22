@@ -1,0 +1,55 @@
+/* Footer */
+.primary-footer {
+    margin-top: 20px; /* Adds space between the footer and the body content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c6e55;
+    color: #ffffff;
+    padding: 20px;
+    flex-direction: column; /* Default for smaller screens */
+}
+
+.primary-footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Default for smaller screens */
+    text-align: center;
+}
+
+.primary-footer .footer-logo {
+    width: 210px;
+    height: 210px;
+    background: url('../img/logo-kriska.png') no-repeat center;
+    background-size: contain;
+    margin-bottom: 13px;
+}
+
+.primary-footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* For larger screens, align logo and text side by side */
+@media (min-width: 768px) {
+    .primary-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 50px;
+    }
+
+    .primary-footer .container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .primary-footer .footer-logo {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .primary-footer p {
+        font-size: 16px;
+    }
+}

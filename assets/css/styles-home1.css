@@ -1,10 +1,27 @@
 /* Dashboard */
 
+/* Wrapper for content and footer */
+.wrapper {
+    min-height: 100vh; /* Ensures the content takes at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content area */
+.main-content {
+    flex: 1; /* Pushes the footer to the bottom */
+    display: flex;
+    justify-content: space-between; /* Ensures left and right sections are balanced */
+    padding: 20px;
+}
+
 /* Lembar Kiri */
 .lembar-kiri {
-    width: 60%;
-    float: left;
+    width: 48%;
     padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
 }
 
 .slideshow-container {
@@ -30,10 +47,9 @@
 
 /* Table Kanan */
 .lembar-kanan {
-    width: 35%;
-    float: right;
+    width: 48%;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
 }
