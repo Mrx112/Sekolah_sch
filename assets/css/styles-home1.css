@@ -17,10 +17,10 @@
 
 /* Lembar Kiri */
 .lembar-kiri {
-    width: 48%;
+    width: 75%;
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #ffffff;
 }
 
@@ -47,11 +47,11 @@
 
 /* Table Kanan */
 .lembar-kanan {
-    width: 48%;
+    width: 25%;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .lembar-kanan table {

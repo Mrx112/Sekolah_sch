@@ -26,23 +26,7 @@
         <div class="main-content">
             <!-- Lembar Kiri -->
             <div class="lembar-kiri">
-                <div class="slideshow-container">
-                    <div class="slides">
-                        <img src="../assets/img/content1.png" alt="Slide 1">
-                    </div>
-                    <div class="slides">
-                        <img src="../assets/img/content2.png" alt="Slide 2">
-                    </div>
-                    <div class="slides">
-                        <img src="../assets/img/content3.png" alt="Slide 3">
-                    </div>
-                    <div class="slides">
-                        <img src="../assets/img/content4.png" alt="Slide 4">
-                    </div>
-                    <div class="slides">
-                        <img src="../assets/img/content5.png" alt="Slide 5">
-                    </div>
-                </div>
+                
             </div>
         
     

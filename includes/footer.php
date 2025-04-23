@@ -18,20 +18,14 @@
     <link rel="stylesheet" href="../assets/css/styles-home1.css">
     <link rel="stylesheet" href="../assets/css/styles-home2.css">
 
-    <footer class="primary-footer">
-        <div class="container">
-            <!-- Logo di sisi kiri -->
-            <div class="footer-logo"></div>
-            <!-- Teks di bawah logo -->
-            <p class="copyright">&copy; 2025 Website SMK KRISTEN SURAKARTA. All rights reserved.</p>
-        </div>
-    </footer>
-
     <footer class="footer-distributed">
         <div class="footer-left">
-            <h3>SMK KRISTEN SURAKARTA</h3>
+            <h3>
+                <img src="../assets/img/logo-kriska.png" alt="Logo" width="100"><br/>
+                SMK KRISTEN SURAKARTA
+            </h3>
             <p class="footer-links">
-                <a href="../pages/index.php" link="#index">Home</a>
+                <a href="../index.php" link="#index">Home</a>
                 .
                 <a href="../pages/profile.php" link="#profile">About</a>
                 .
@@ -67,6 +61,12 @@
             <a href="#"><i class="fa fa-github"></i></a>
         </div>
     </div>
+    </footer>
+
+    <footer class="primary-footer">
+        <div class="container">
+            <p class="copyright">&copy; 2025 Website SMK KRISTEN SURAKARTA. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
