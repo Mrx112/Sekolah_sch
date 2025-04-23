@@ -27,7 +27,7 @@
             <p class="footer-links">
                 <a href="../index.php" link="#index">Home</a>
                 .
-                <a href="../pages/profile.php" link="#profile">About</a>
+                <a href="../pages/profile.php" link="#profile">Profile</a>
                 .
                 <a href="../pages/kontak.php" link="#kontak">Contact</a>
             </p>

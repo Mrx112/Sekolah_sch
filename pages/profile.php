@@ -25,11 +25,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     </head>
 <body>  
-    <div class="preloader">
-        <div class="loading">
-            <img src="../assets/img/preloader.png" width="80">
-        </div>
-    </div>
     <div class="title">
         <div class="title-text">
             <h1>Profil Sekolah</h1>
