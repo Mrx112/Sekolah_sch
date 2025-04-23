@@ -1,0 +1,44 @@
+Struktur website :
+
+* assets -->    * CSS = 1. preloader.css
+                        2. styles-home1.css
+                        3. styles-home2.css
+                        4. styles-menu.css
+                        5. styles.css
+
+                * img = * Content = 1.content1.png
+                                    2.content2.png
+                                    3.content3.png
+                                    den seterusnya...
+                        * Profile = 1. Foto A
+                                    2. Foto B
+                                    3. Foto C
+                                    dan seterusnya ...
+                        1. foto-header.png
+                        2. foto-logo.png
+                        3. loading.png
+                * js = script.js
+
+* config -->    db.php
+
+* includes -->  1. footer.php
+                2. functions.php
+                3. header.php
+                4. home.php / (tampilan dashboard default)
+
+* pages -->     1. add.php
+                2. berita.php
+                3. bkk.php
+                4. delete.php
+                5. edit.php
+                6. ekskul.php
+                7. elearning.php
+                8. katalog_blud.php
+                9. konsentrasi_keahlian.php
+                10. kontak.php
+                11. manajemen_guru.php
+                12. pkl.php
+                13. ppdb_25.php
+                15. profile.php
+
+* index.php

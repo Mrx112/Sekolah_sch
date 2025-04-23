@@ -29,7 +29,7 @@
 
     <!---Navbar--->
     <header class="top-bar">
-        <a href="#" id="logo" name="logo"></a>
+        <a href="../index.php" id="logo" name="logo"></a>
         <div class="container">
             <h1>Informasi Sekolah</h1>
             <p>Jl.XXXX No.XXX Kecamatan XXX, Kota XXX, Jawa Tengah</p>

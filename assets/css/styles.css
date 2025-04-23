@@ -192,6 +192,12 @@ header {
     background: url('../img/logo-kriska.png') no-repeat center;
     background-size: contain;
     margin-top: 13px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 #logo_f {
@@ -199,7 +205,12 @@ header {
     background: url('../img/logo-krika.png') no-repeat center;
     background-size: contain;
     margin-top: 13px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+#logo_f:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 
 .profile-content {
     display: flex;
