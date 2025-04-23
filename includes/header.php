@@ -38,18 +38,18 @@
     </header>
     <div class="header-wrapper">
             <div class="header-title">
-                <nav class="header-title">
-                    <a href="#profil" src="../pages/profile.php">Profil</a>
-                    <a href="#manajemen_guru" src="../pages/manajemen_guru.php">Manajemen Guru</a>
-                    <a href="#konsentrasi_keahlian" src="../pages/konsentrasi_keahlian.php">Konsentrasi Keahlian</a>
-                    <a href="#ekskul" src="../pages/ekskul.php">Ekskul</a>
-                    <a href="#bkk" src="../pages/bkk.php">BKK</a>
-                    <a href="#katalog_blud" src="../pages/katalog_blud.php">Katalog BLUD</a>
-                    <a href="#praktek_kerja_lapangan" src="../pages/pkl.php">PKL</a>
-                    <a href="#elearning" src="../pages/elearning.php">Elearning</a>
-                    <a href="#ppdb_24" src="../pages/ppdb_24.php">PPDB 2024</a>
-                    <a href="#berita" src="../pages/berita.php">Berita</a>
-                    <a href="#kontak" src="../pages/kontak.php">Kontak</a>
+                <nav class="header-buttons">
+                    <a href="../pages/profile.php" link="#profile">Profil</a>
+                    <a href="../pages/manajemen_guru.php" link="#manajemen_guru">Manajemen Guru</a>
+                    <a href="../pages/konsentrasi_keahlian.php" link="konsentrasi_keahlian">Konsentrasi Keahlian</a>
+                    <a href="../pages/ekskul.php" link="#ekskul">Ekskul</a>
+                    <a href="../pages/bkk.php" link="#bkk">BKK</a>
+                    <a href="../pages/katalog_blud.php" link="#katalog_blud">Katalog BLUD</a>
+                    <a href="../pages/pkl.php" link="#pkl">PKL</a>
+                    <a href="../pages/elearning.php" link="#elearning">Elearning</a>
+                    <a href="../pages/ppdb_24.php" link="#ppdb_24">PPDB 2024</a>
+                    <a href="../pages/berita.php" link="#berita">Berita</a>
+                    <a href="../pages/kontak.php" link="#kontak">Kontak</a>
                 </nav>
             </div>
         </div>

@@ -31,11 +31,11 @@
         <div class="footer-left">
             <h3>SMK KRISTEN SURAKARTA</h3>
             <p class="footer-links">
-                <a href="#" src="../pages/index.php">Home</a>
+                <a href="../pages/index.php" link="#index">Home</a>
                 .
-                <a href="#" src="../pages/profile.php">About</a>
+                <a href="../pages/profile.php" link="#profile">About</a>
                 .
-                <a href="#" src="../pages/kontak.php">Contact</a>
+                <a href="../pages/kontak.php" link="#kontak">Contact</a>
             </p>
             <p class="footer-company-name">&copy; Created By Adi Susilo &copy; 2025</p>
         </div>
