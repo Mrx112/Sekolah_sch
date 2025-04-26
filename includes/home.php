@@ -7,7 +7,7 @@
 <html leng="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" img/content="width=device-width, initial-scale=1.0">
         <title>Dashboard</title>
             <link rel="stylesheet" href="../assets/css/styles-home1.css">
             <link rel="stylesheet" href="../assets/css/styles-home2.css">
@@ -24,41 +24,54 @@
     <div class="wrapper">
         <!-- Main Content -->
         <div class="main-content">
-            <!-- Lembar Kiri -->
-            <div class="lembar-kiri">
-                
+            <!-- Slideshow -->
+            <div class="slideshow-container">
+                <div class="slides">
+                    <img src="../assets/img/content/content1.png" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="../assets/img/content/content2.png" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="../assets/img/content/content3.png" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="../assets/img/content/content4.png" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="../assets/img/content/content5.png" style="width:100%">
+                </div>
             </div>
-        
-    
-            <!-- Table Kanan -->
-            <div class="lembar-kanan">
-                <h3>Data dan Menu</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Nama</th>
-                            <th>Menu</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
-                        $query = "SELECT id, name FROM sekolah_baru LIMIT 5"; // Replace with your table
-                        $result = $conn->query($query);
-                        if ($result->num_rows > 0) {
-                            while ($row = $result->fetch_assoc()) {
-                                echo "<tr>";
-                                echo "<td>" . htmlspecialchars($row['id']) . "</td>";
-                                echo "<td>" . htmlspecialchars($row['name']) . "</td>";
-                                echo "<td><a href='#'>Detail</a></td>";
-                                echo "</tr>";
-                            }
-                        } else {
-                            echo "<tr><td colspan='3'>Tidak ada data.</td></tr>";
+            <div class="slideshow-buttons">
+                <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+            <div class="dot-container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <!-- Kotak Berita -->
+            <div class="news-box">
+                <h3>Berita Terbaru</h3>
+                <ul>
+                    <?php
+                    $query = "SELECT id, title, description FROM berita ORDER BY created_at DESC LIMIT 4";
+                    $result = $conn->query($query);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<li><a href="../pages/berita_detail.php?id=' . htmlspecialchars($row['id']) . '">' . htmlspecialchars($row['title']) . '</a></li>';
+                            echo '<p>' . htmlspecialchars(substr($row['description'], 0, 100)) . '...</p>';
                         }
-                        ?>
-                    </tbody>
-                </table>
+                    } else {
+                        echo '<li>Tidak ada berita terbaru.</li>';
+                    }
+                    ?>
+                </ul>
             </div>
         </div>
     <!-- Footer -->
